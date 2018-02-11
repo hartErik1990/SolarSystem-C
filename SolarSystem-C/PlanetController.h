@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  PlanetController.h
 //  SolarSystem-C
 //
 //  Created by Erik HARTLEY on 2/10/18.
 //  Copyright © 2018 Erik HARTLEY. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface PlanetController : NSObject
 
++ (NSArray *)planets;
 
 @end
-

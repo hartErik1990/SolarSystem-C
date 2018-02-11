@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		441C85D5202F9DA30019569F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85D4202F9DA30019569F /* AppDelegate.m */; };
-		441C85D8202F9DA30019569F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85D7202F9DA30019569F /* ViewController.m */; };
 		441C85DB202F9DA30019569F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C85D9202F9DA30019569F /* Main.storyboard */; };
-		441C85DD202F9DA30019569F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441C85DC202F9DA30019569F /* Assets.xcassets */; };
 		441C85E0202F9DA30019569F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C85DE202F9DA30019569F /* LaunchScreen.storyboard */; };
 		441C85E3202F9DA30019569F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85E2202F9DA30019569F /* main.m */; };
+		441C85EB202F9E150019569F /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85EA202F9E150019569F /* Planet.m */; };
+		441C85EE202FA5E30019569F /* PlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85ED202FA5E30019569F /* PlanetController.m */; };
+		441C85F1202FAA180019569F /* PlanetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85F0202FAA180019569F /* PlanetListViewController.m */; };
+		441C85F3202FADD50019569F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441C85F2202FADD50019569F /* Assets.xcassets */; };
+		441C85F6202FB1720019569F /* PlanetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C85F5202FB1720019569F /* PlanetDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		441C85D0202F9DA30019569F /* SolarSystem-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SolarSystem-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441C85D3202F9DA30019569F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		441C85D4202F9DA30019569F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		441C85D6202F9DA30019569F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		441C85D7202F9DA30019569F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		441C85DA202F9DA30019569F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		441C85DC202F9DA30019569F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441C85DF202F9DA30019569F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441C85E1202F9DA30019569F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441C85E2202F9DA30019569F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		441C85E9202F9E150019569F /* Planet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		441C85EA202F9E150019569F /* Planet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		441C85EC202FA5E30019569F /* PlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetController.h; sourceTree = "<group>"; };
+		441C85ED202FA5E30019569F /* PlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetController.m; sourceTree = "<group>"; };
+		441C85EF202FAA180019569F /* PlanetListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetListViewController.h; sourceTree = "<group>"; };
+		441C85F0202FAA180019569F /* PlanetListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetListViewController.m; sourceTree = "<group>"; };
+		441C85F2202FADD50019569F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Downloads/DevMtn-Project-13---SolarSystem-Objective-C-master/SolarSystem-C/Assets.xcassets"; sourceTree = "<group>"; };
+		441C85F4202FB1720019569F /* PlanetDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetDetailViewController.h; sourceTree = "<group>"; };
+		441C85F5202FB1720019569F /* PlanetDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +69,17 @@
 			children = (
 				441C85D3202F9DA30019569F /* AppDelegate.h */,
 				441C85D4202F9DA30019569F /* AppDelegate.m */,
-				441C85D6202F9DA30019569F /* ViewController.h */,
-				441C85D7202F9DA30019569F /* ViewController.m */,
+				441C85E9202F9E150019569F /* Planet.h */,
+				441C85EA202F9E150019569F /* Planet.m */,
 				441C85D9202F9DA30019569F /* Main.storyboard */,
-				441C85DC202F9DA30019569F /* Assets.xcassets */,
+				441C85F2202FADD50019569F /* Assets.xcassets */,
 				441C85DE202F9DA30019569F /* LaunchScreen.storyboard */,
+				441C85EF202FAA180019569F /* PlanetListViewController.h */,
+				441C85F0202FAA180019569F /* PlanetListViewController.m */,
+				441C85F4202FB1720019569F /* PlanetDetailViewController.h */,
+				441C85F5202FB1720019569F /* PlanetDetailViewController.m */,
+				441C85EC202FA5E30019569F /* PlanetController.h */,
+				441C85ED202FA5E30019569F /* PlanetController.m */,
 				441C85E1202F9DA30019569F /* Info.plist */,
 				441C85E2202F9DA30019569F /* main.m */,
 			);
@@ -130,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				441C85E0202F9DA30019569F /* LaunchScreen.storyboard in Resources */,
-				441C85DD202F9DA30019569F /* Assets.xcassets in Resources */,
+				441C85F3202FADD50019569F /* Assets.xcassets in Resources */,
 				441C85DB202F9DA30019569F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441C85D8202F9DA30019569F /* ViewController.m in Sources */,
 				441C85E3202F9DA30019569F /* main.m in Sources */,
+				441C85EE202FA5E30019569F /* PlanetController.m in Sources */,
+				441C85F1202FAA180019569F /* PlanetListViewController.m in Sources */,
 				441C85D5202F9DA30019569F /* AppDelegate.m in Sources */,
+				441C85EB202F9E150019569F /* Planet.m in Sources */,
+				441C85F6202FB1720019569F /* PlanetDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
